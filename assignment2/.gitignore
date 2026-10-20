@@ -1,0 +1,35 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython build artifacts (keep the .pyx source)
+build/
+*.so
+*.pyd
+cisc6000/im2col_cython.c
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded datasets (fetched by get_datasets.sh / get_imagenet_val.sh)
+cisc6000/datasets/*
+!cisc6000/datasets/*.sh
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor junk
+.DS_Store
+__MACOSX/
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Office lock files
+~$*
+._*
